@@ -1,0 +1,321 @@
+{
+  "keys": "L:\\yoho\\back\\config\\config.default.js",
+  "middleware": "L:\\yoho\\back\\config\\config.default.js",
+  "mysql": {
+    "client": {
+      "host": "L:\\yoho\\back\\config\\config.default.js",
+      "port": "L:\\yoho\\back\\config\\config.default.js",
+      "user": "L:\\yoho\\back\\config\\config.default.js",
+      "password": "L:\\yoho\\back\\config\\config.default.js",
+      "database": "L:\\yoho\\back\\config\\config.default.js"
+    },
+    "app": "L:\\yoho\\back\\config\\config.default.js",
+    "agent": "L:\\yoho\\back\\config\\config.default.js",
+    "default": {
+      "database": "L:\\yoho\\back\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "L:\\yoho\\back\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "L:\\yoho\\back\\config\\config.default.js",
+      "type": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "L:\\yoho\\back\\config\\config.default.js",
+    "protocolWhiteList": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "L:\\yoho\\back\\config\\config.default.js",
+    "allowMethods": "L:\\yoho\\back\\config\\config.default.js"
+  },
+  "jwt": {
+    "secret": "L:\\yoho\\back\\config\\config.default.js",
+    "enable": "L:\\yoho\\back\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "L:\\yoho\\back\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "L:\\yoho\\back\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "L:\\yoho\\back\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "L:\\yoho\\back\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "L:\\yoho\\back\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "L:\\yoho\\back\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "L:\\yoho\\back\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "L:\\yoho\\back\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "L:\\yoho\\back\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "L:\\yoho\\back\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "L:\\yoho\\back\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "L:\\yoho\\back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "L:\\yoho\\back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "L:\\yoho\\back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "L:\\yoho\\back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "L:\\yoho\\back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "L:\\yoho\\back\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "L:\\yoho\\back\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "L:\\yoho\\back\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "L:\\yoho\\back\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "L:\\yoho\\back\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "L:\\yoho\\back\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "L:\\yoho\\back\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "L:\\yoho\\back\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "L:\\yoho\\back\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "L:\\yoho\\back\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "L:\\yoho\\back\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "L:\\yoho\\back\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "L:\\yoho\\back\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "L:\\yoho\\back\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "L:\\yoho\\back\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "L:\\yoho\\back\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "L:\\yoho\\back\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "L:\\yoho\\back\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "L:\\yoho\\back\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "L:\\yoho\\back\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "L:\\yoho\\back\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "L:\\yoho\\back\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "L:\\yoho\\back\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "L:\\yoho\\back\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "L:\\yoho\\back\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "L:\\yoho\\back\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "name": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "version": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "description": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "private": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "crypto": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "stop": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "dev": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "debug": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "test": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "cov": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "lint": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "ci": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "autod": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "url": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "license": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "strict": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "depth": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "env": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "level": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "L:\\yoho\\back\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "logging": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "port": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "L:\\yoho\\back\\node_modules\\egg\\config\\config.default.js"
+}

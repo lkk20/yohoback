@@ -1,0 +1,382 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/login",
+    "regexp": "/^\\/api\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/register",
+    "regexp": "/^\\/api\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getRecommend",
+    "regexp": "/^\\/api\\/getRecommend(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getTops",
+    "regexp": "/^\\/api\\/getTops(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getFourCateData",
+    "regexp": "/^\\/api\\/getFourCateData(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getDataByCate",
+    "regexp": "/^\\/api\\/getDataByCate(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/searchByKey",
+    "regexp": "/^\\/api\\/searchByKey(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getProductById",
+    "regexp": "/^\\/api\\/getProductById(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/addCart",
+    "regexp": "/^\\/api\\/addCart(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/isCollect",
+    "regexp": "/^\\/api\\/isCollect(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/addCollect",
+    "regexp": "/^\\/api\\/addCollect(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getCartData",
+    "regexp": "/^\\/api\\/getCartData(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getCollectData",
+    "regexp": "/^\\/api\\/getCollectData(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getUserInfo",
+    "regexp": "/^\\/api\\/getUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getViewData",
+    "regexp": "/^\\/api\\/getViewData(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/addView",
+    "regexp": "/^\\/api\\/addView(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/deleteViews",
+    "regexp": "/^\\/api\\/deleteViews(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/deleteCartByCid",
+    "regexp": "/^\\/api\\/deleteCartByCid(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getCartByCid",
+    "regexp": "/^\\/api\\/getCartByCid(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/changeUserInfo",
+    "regexp": "/^\\/api\\/changeUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/adminLogin",
+    "regexp": "/^\\/api\\/adminLogin(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/adminRegister",
+    "regexp": "/^\\/api\\/adminRegister(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getAdminInfo",
+    "regexp": "/^\\/api\\/getAdminInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getAllUserInfo",
+    "regexp": "/^\\/api\\/getAllUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/getAllProducts",
+    "regexp": "/^\\/api\\/getAllProducts(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/adminGetProduct",
+    "regexp": "/^\\/api\\/adminGetProduct(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/changeProduct",
+    "regexp": "/^\\/api\\/changeProduct(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/deleteProduct",
+    "regexp": "/^\\/api\\/deleteProduct(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/addProduct",
+    "regexp": "/^\\/api\\/addProduct(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/searchData",
+    "regexp": "/^\\/api\\/searchData(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  }
+]

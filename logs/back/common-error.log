@@ -1,0 +1,1423 @@
+2021-02-01 11:46:35,224 ERROR 10460 [-/127.0.0.1/-/122ms POST /login] nodejs.TypeError: Cannot read property 'login' of undefined
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at L:\yoho\back\node_modules\koa-compose\index.js:36:12
+
+pid: 10460
+hostname: DESKTOP
+
+2021-02-01 11:49:04,794 ERROR 10460 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read property 'login' of undefined
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at L:\yoho\back\node_modules\koa-compose\index.js:36:12
+
+pid: 10460
+hostname: DESKTOP
+
+2021-02-01 11:49:26,239 ERROR 7460 [-/127.0.0.1/-/25ms POST /login] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.login (L:\yoho\back\app\service\user.js:6:38)
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+
+pid: 7460
+hostname: DESKTOP
+
+2021-02-01 11:49:52,051 ERROR 12040 [-/127.0.0.1/-/23ms POST /login] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.login (L:\yoho\back\app\service\user.js:6:41)
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+
+pid: 12040
+hostname: DESKTOP
+
+2021-02-01 11:50:23,827 ERROR 12512 [-/127.0.0.1/-/36ms POST /login] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.login (L:\yoho\back\app\service\user.js:7:41)
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+
+pid: 12512
+hostname: DESKTOP
+
+2021-02-01 11:50:39,381 ERROR 5300 [-/127.0.0.1/-/26ms POST /login] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.login (L:\yoho\back\app\service\user.js:7:41)
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+
+pid: 5300
+hostname: DESKTOP
+
+2021-02-01 11:50:56,041 ERROR 12092 [-/127.0.0.1/-/25ms POST /login] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.login (L:\yoho\back\app\service\user.js:7:38)
+    at UserController.login (L:\yoho\back\app\controller\user.js:13:43)
+    at Object.callFn (L:\yoho\back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (L:\yoho\back\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (L:\yoho\back\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (L:\yoho\back\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+    at next (L:\yoho\back\node_modules\koa-compose\index.js:45:18)
+    at L:\yoho\back\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (L:\yoho\back\node_modules\koa-compose\index.js:44:32)
+
+pid: 12092
+hostname: DESKTOP
+
+2021-02-01 11:51:25,012 ERROR 4952 [-/127.0.0.1/-/24ms POST /login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT userid,username FROM userinfo WHERE phone = '15237155820' AND PASSWORD = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT userid,username FROM userinfo WHERE phone = '15237155820' AND PASSWORD = ?"
+name: "ER_PARSE_ERRORError"
+pid: 4952
+hostname: DESKTOP
+
+2021-02-01 13:41:36,528 ERROR 13108 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13108
+hostname: DESKTOP
+
+2021-02-01 14:13:11,862 ERROR 13108 nodejs.ClusterClientNoResponseError: client no response in 1855150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (L:\yoho\back\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13108
+hostname: DESKTOP
+
+2021-02-01 17:15:41,097 ERROR 5952 [-/127.0.0.1/-/26ms POST /api/getRecommend] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,price,image,issale,oldprice FROM product WHERE isrecommend = 1 LIMIT '2'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,price,image,issale,oldprice FROM product WHERE isrecommend = 1 LIMIT '2'"
+name: "ER_PARSE_ERRORError"
+pid: 5952
+hostname: DESKTOP
+
+2021-02-01 18:01:27,290 ERROR 15400 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15400
+hostname: DESKTOP
+
+2021-02-03 10:48:25,758 ERROR 4312 [-/127.0.0.1/-/19ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'COUNT' in 'field list'
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT FROM userinfo WHERE phone = '13713713711'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'COUNT' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT COUNT FROM userinfo WHERE phone = '13713713711'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4312
+hostname: DESKTOP
+
+2021-02-03 10:48:39,820 ERROR 4312 [-/127.0.0.1/-/4ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'COUNT' in 'field list'
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT FROM userinfo WHERE phone = '13713713711'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'COUNT' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT COUNT FROM userinfo WHERE phone = '13713713711'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 4312
+hostname: DESKTOP
+
+2021-02-03 10:48:46,751 ERROR 6696 [-/127.0.0.1/-/23ms POST /api/register] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'COUNT' in 'field list'
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT FROM userinfo WHERE phone = '13713713711'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'COUNT' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT COUNT FROM userinfo WHERE phone = '13713713711'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6696
+hostname: DESKTOP
+
+2021-02-03 10:50:11,223 ERROR 11652 [-/127.0.0.1/-/18ms POST /api/register] nodejs.ReferenceError: userid is not defined
+    at UserController.register (L:\yoho\back\app\controller\user.js:42:48)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async L:\yoho\back\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (L:\yoho\back\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (L:\yoho\back\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (L:\yoho\back\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (L:\yoho\back\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (L:\yoho\back\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (L:\yoho\back\node_modules\koa-bodyparser\index.js:95:5)
+    at async L:\yoho\back\node_modules\koa-static-cache\index.js:39:63
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 11652
+hostname: DESKTOP
+
+2021-02-03 11:30:47,687 ERROR 10764 [-/127.0.0.1/-/23ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 10764
+hostname: DESKTOP
+
+2021-02-03 11:31:10,336 ERROR 10764 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 10764
+hostname: DESKTOP
+
+2021-02-03 11:31:16,863 ERROR 10764 [-/127.0.0.1/-/2ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 10764
+hostname: DESKTOP
+
+2021-02-03 11:31:48,771 ERROR 6780 [-/127.0.0.1/-/33ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 6780
+hostname: DESKTOP
+
+2021-02-03 11:31:52,620 ERROR 6780 [-/127.0.0.1/-/4ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 6780
+hostname: DESKTOP
+
+2021-02-03 11:34:13,657 ERROR 120 [-/127.0.0.1/-/18ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 120
+hostname: DESKTOP
+
+2021-02-03 11:34:23,367 ERROR 120 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 120
+hostname: DESKTOP
+
+2021-02-03 11:34:27,645 ERROR 120 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 120
+hostname: DESKTOP
+
+2021-02-03 11:34:45,051 ERROR 120 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 120
+hostname: DESKTOP
+
+2021-02-03 11:37:38,206 ERROR 120 [-/127.0.0.1/-/3ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 120
+hostname: DESKTOP
+
+2021-02-03 11:39:19,484 ERROR 1424 [-/127.0.0.1/-/23ms POST /api/register] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT COUNT(userid) FROM userinfo WHERE phone = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT COUNT(userid) FROM userinfo WHERE phone = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 1424
+hostname: DESKTOP
+
+2021-02-03 11:40:59,480 ERROR 6620 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6620
+hostname: DESKTOP
+
+2021-02-03 13:11:06,553 ERROR 6620 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6620
+hostname: DESKTOP
+
+2021-02-03 19:14:24,649 ERROR 6620 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6620
+hostname: DESKTOP
+
+2021-02-03 22:02:55,420 ERROR 6620 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6620
+hostname: DESKTOP
+
+2021-02-04 11:00:48,010 ERROR 12624 [-/127.0.0.1/-/5ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 11:02:04,439 ERROR 12624 [-/127.0.0.1/-/3ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 11:02:12,136 ERROR 12624 [-/127.0.0.1/-/3ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 11:02:21,931 ERROR 12624 [-/127.0.0.1/-/2ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 11:02:41,457 ERROR 12624 [-/127.0.0.1/-/2ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 11:04:22,651 ERROR 12624 [-/127.0.0.1/-/2ms POST /api/getDataByCate] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE cate = 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE cate = 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 11:04:26,710 ERROR 12624 [-/127.0.0.1/-/2ms POST /api/getDataByCate] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE cate = 'jiake' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE cate = 'jiake' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 12624
+hostname: DESKTOP
+
+2021-02-04 16:29:38,308 ERROR 12716 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12716
+hostname: DESKTOP
+
+2021-02-04 16:33:14,570 ERROR 11100 [-/127.0.0.1/-/18ms POST /api/searchByKey] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '夹克'%' OR productinfo LIKE '%'夹克'%' OR cate = '夹克'' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT * FROM product WHERE title LIKE '%'夹克'%' OR productinfo LIKE '%'夹克'%' OR cate = '夹克'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '夹克'%' OR productinfo LIKE '%'夹克'%' OR cate = '夹克'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM product WHERE title LIKE '%'夹克'%' OR productinfo LIKE '%'夹克'%' OR cate = '夹克'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11100
+hostname: DESKTOP
+
+2021-02-04 16:34:51,581 ERROR 12580 [-/127.0.0.1/-/18ms POST /api/searchByKey] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'夹克'% OR productinfo LIKE %'夹克'% OR cate = '夹克'' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT * FROM product WHERE title LIKE %'夹克'% OR productinfo LIKE %'夹克'% OR cate = '夹克'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'夹克'% OR productinfo LIKE %'夹克'% OR cate = '夹克'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM product WHERE title LIKE %'夹克'% OR productinfo LIKE %'夹克'% OR cate = '夹克'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12580
+hostname: DESKTOP
+
+2021-02-04 16:37:33,319 ERROR 9284 [-/127.0.0.1/-/25ms POST /api/searchByKey] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.searchByKey (L:\yoho\back\app\controller\user.js:104:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async L:\yoho\back\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (L:\yoho\back\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (L:\yoho\back\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (L:\yoho\back\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (L:\yoho\back\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (L:\yoho\back\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (L:\yoho\back\node_modules\koa-bodyparser\index.js:95:5)
+    at async L:\yoho\back\node_modules\koa-static-cache\index.js:39:63
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 9284
+hostname: DESKTOP
+
+2021-02-04 16:38:25,448 ERROR 12776 [-/127.0.0.1/-/28ms POST /api/searchByKey] nodejs.TypeError: Cannot read property 'length' of undefined
+    at UserController.searchByKey (L:\yoho\back\app\controller\user.js:104:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async L:\yoho\back\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (L:\yoho\back\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (L:\yoho\back\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (L:\yoho\back\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (L:\yoho\back\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (L:\yoho\back\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (L:\yoho\back\node_modules\koa-bodyparser\index.js:95:5)
+    at async L:\yoho\back\node_modules\koa-static-cache\index.js:39:63
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 12776
+hostname: DESKTOP
+
+2021-02-05 18:19:35,141 ERROR 4464 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4464
+hostname: DESKTOP
+
+2021-02-07 10:42:17,758 ERROR 7676 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7676
+hostname: DESKTOP
+
+2021-02-08 11:43:34,192 ERROR 10248 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10248
+hostname: DESKTOP
+
+2021-02-08 17:19:59,088 ERROR 10248 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10248
+hostname: DESKTOP
+
+2021-02-08 21:09:24,433 ERROR 9192 [-/127.0.0.1/-/5ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'isnew' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'isnew' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 9192
+hostname: DESKTOP
+
+2021-02-08 21:09:29,808 ERROR 9192 [-/127.0.0.1/-/2ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'ishot' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'ishot' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 9192
+hostname: DESKTOP
+
+2021-02-08 21:09:35,349 ERROR 9192 [-/127.0.0.1/-/3ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'issale' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'issale' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 9192
+hostname: DESKTOP
+
+2021-02-08 21:10:23,620 ERROR 9192 [-/127.0.0.1/-/3ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'ishot' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'ishot' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 9192
+hostname: DESKTOP
+
+2021-02-08 21:12:12,082 ERROR 9192 [-/127.0.0.1/-/4ms POST /api/getFourCateData] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'ishot' LIMIT NaN
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT productid,title,issale,oldprice,price,image FROM product WHERE 'ishot' LIMIT NaN"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_SP_UNDECLARED_VARError"
+pid: 9192
+hostname: DESKTOP
+
+2021-02-09 14:54:58,725 ERROR 9780 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9780
+hostname: DESKTOP
+
+2021-02-09 16:57:48,822 ERROR 9780 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9780
+hostname: DESKTOP
+
+2021-02-09 20:58:49,907 ERROR 9780 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9780
+hostname: DESKTOP
+
+2021-02-21 16:21:23,305 ERROR 14728 [-/127.0.0.1/-/21ms POST /api/getAdminInfo] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT name FROM admin WHERE aid = ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT name FROM admin WHERE aid = ?"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 14728
+hostname: DESKTOP
+
+2021-02-21 16:36:52,449 ERROR 8768 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8768
+hostname: DESKTOP
+
+2021-02-21 17:58:08,633 ERROR 8768 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 8768
+hostname: DESKTOP
+
+2021-02-21 21:19:31,813 ERROR 8768 nodejs.ClusterClientNoResponseError: client no response in 4299217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (L:\yoho\back\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 8768
+hostname: DESKTOP
+
+2021-02-22 11:02:52,649 ERROR 11652 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11652
+hostname: DESKTOP
+
+2021-02-22 15:54:20,776 ERROR 660 [-/127.0.0.1/-/38ms POST /api/adminGetProduct] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'pid' in 'where clause'
+    at Query.Sequence._packetToError (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (L:\yoho\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (L:\yoho\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (L:\yoho\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (L:\yoho\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Pool.query (L:\yoho\back\node_modules\mysql\lib\Pool.js:199:23)
+    at L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (L:\yoho\back\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (L:\yoho\back\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (L:\yoho\back\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (L:\yoho\back\node_modules\co\index.js:65:19)
+    at L:\yoho\back\node_modules\co\index.js:54:5
+    sql: SELECT * FROM product WHERE pid = '1'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'pid' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM product WHERE pid = '1'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 660
+hostname: DESKTOP
+
+2021-02-22 22:19:56,351 ERROR 11652 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11652
+hostname: DESKTOP
+
+2021-02-23 20:40:41,263 ERROR 9516 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9516
+hostname: DESKTOP
+
